@@ -72,6 +72,6 @@ end
 
 
 
-TriggerEvent('es:addCommand', 'givecarkeys', function(source, args, user)
+RegisterCommand('givecarkeys', function(source, args, user)
 TriggerClientEvent('esx_givecarkeys:keys', source)
 end)
